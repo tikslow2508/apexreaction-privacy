@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Apex Reaction</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+ 
+    :root {
+      --red:     #FF1E1E;
+      --red-dim: rgba(255,30,30,0.12);
+      --bg:      #09090b;
+      --surface: #111113;
+      --border:  #1f1f23;
+      --white:   #f8f8fa;
+      --dim:     #71717a;
+      --dim2:    #3f3f46;
+    }
+ 
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+ 
+    html { scroll-behavior: smooth; }
+ 
+    body {
+      background: var(--bg);
+      color: var(--white);
+      font-family: 'Poppins', system-ui, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+ 
+    /* ── header ─────────────────────────────────── */
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 28px 0 24px;
+    }
+    .header-inner {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+    .dots {
+      display: flex;
+      gap: 7px;
+      align-items: center;
+      flex-shrink: 0;
+    }
+    .dot {
+      width: 13px; height: 13px;
+      border-radius: 50%;
+    }
+    .dot.on  { background: var(--red); box-shadow: 0 0 8px 2px rgba(255,30,30,0.55); }
+    .dot.off { border: 2px solid var(--dim2); }
+    .wordmark {
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      line-height: 1;
+    }
+    .wordmark span { font-weight: 300; color: var(--dim); }
+ 
+    /* ── main ────────────────────────────────────── */
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 64px 24px 96px;
+    }
+ 
+    .eyebrow {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 14px;
+    }
+ 
+    h1 {
+      font-size: clamp(28px, 5vw, 42px);
+      font-weight: 700;
+      line-height: 1.15;
+      margin-bottom: 12px;
+    }
+ 
+    .meta {
+      font-size: 13px;
+      color: var(--dim);
+      margin-bottom: 52px;
+    }
+ 
+    /* section divider */
+    .section {
+      margin-bottom: 48px;
+      padding-bottom: 48px;
+      border-bottom: 1px solid var(--border);
+    }
+    .section:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+ 
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    h2::before {
+      content: '';
+      display: inline-block;
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--red);
+      flex-shrink: 0;
+      box-shadow: 0 0 6px 1px rgba(255,30,30,0.5);
+    }
+ 
+    p { color: #c4c4cc; margin-bottom: 14px; }
+    p:last-child { margin-bottom: 0; }
+ 
+    a { color: var(--red); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+ 
+    /* highlight box */
+    .highlight {
+      background: var(--red-dim);
+      border-left: 3px solid var(--red);
+      border-radius: 0 8px 8px 0;
+      padding: 16px 20px;
+      margin: 20px 0;
+      color: #e8b4b4;
+      font-size: 15px;
+    }
+ 
+    /* ── footer ─────────────────────────────────── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 32px 24px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--dim);
+    }
+    footer .dots-sm {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      margin-bottom: 14px;
+    }
+    footer .dot-sm {
+      width: 7px; height: 7px; border-radius: 50%;
+    }
+    footer .dot-sm.on  { background: var(--red); }
+    footer .dot-sm.off { border: 1.5px solid var(--dim2); }
+ 
+    @media (max-width: 480px) {
+      main { padding: 40px 20px 72px; }
+      .wordmark { font-size: 15px; }
+    }
+  </style>
+</head>
+<body>
+ 
+<header>
+  <div class="header-inner">
+    <div class="dots" aria-hidden="true">
+      <div class="dot on"></div>
+      <div class="dot on"></div>
+      <div class="dot on"></div>
+      <div class="dot off"></div>
+      <div class="dot off"></div>
+    </div>
+    <div class="wordmark">APEX <span>REACTION</span></div>
+  </div>
+</header>
+ 
+<main>
+  <p class="eyebrow">Legal</p>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective date: June 17, 2026 &nbsp;·&nbsp; Version 1.0</p>
+ 
+  <div class="section">
+    <h2>Overview</h2>
+    <p>Apex Reaction is a Formula 1 start reaction time trainer for Android. This policy explains what data the app collects, how it is used, and your rights as a user.</p>
+    <div class="highlight">
+      Apex Reaction does not collect, transmit, or share any personal data. All data stays on your device.
+    </div>
+  </div>
+ 
+  <div class="section">
+    <h2>Data we collect</h2>
+    <p>Apex Reaction stores the following data <strong>locally on your device only</strong>, using Android's Room database:</p>
+    <p>
+      · Your reaction times (in milliseconds) from up to the last 50 attempts<br>
+      · Timestamps of each attempt<br>
+      · Start status (Clean Start or False Start)<br>
+      · Derived statistics: personal best, average, median, and DSQ rate
+    </p>
+    <p>This data never leaves your device. We have no access to it, and it is never sent to any server.</p>
+  </div>
+ 
+  <div class="section">
+    <h2>Data we do NOT collect</h2>
+    <p>We do not collect:</p>
+    <p>
+      · Your name, email address, or any account information<br>
+      · Device identifiers or advertising IDs<br>
+      · Location data<br>
+      · Camera or microphone data<br>
+      · Crash reports or analytics<br>
+      · Any data transmitted over the internet
+    </p>
+  </div>
+ 
+  <div class="section">
+    <h2>Permissions</h2>
+    <p>Apex Reaction requests the following Android permissions:</p>
+    <p>
+      · <strong>VIBRATE</strong> — used for haptic feedback during the start sequence. No data is collected.
+    </p>
+    <p>The app does not request internet, camera, location, contacts, or storage permissions.</p>
+  </div>
+ 
+  <div class="section">
+    <h2>Third-party services</h2>
+    <p>Apex Reaction does not integrate any third-party SDKs, analytics platforms, advertising networks, or crash reporting tools.</p>
+    <p>The app does not make any network requests.</p>
+  </div>
+ 
+  <div class="section">
+    <h2>Data deletion</h2>
+    <p>You can permanently delete all stored data at any time from within the app via <strong>Settings → Purge Telemetry Stats</strong>. Uninstalling the app also removes all locally stored data.</p>
+  </div>
+ 
+  <div class="section">
+    <h2>Children's privacy</h2>
+    <p>Apex Reaction does not knowingly collect any information from children under the age of 13. Because no personal data is collected at all, the app is safe for users of all ages.</p>
+  </div>
+ 
+  <div class="section">
+    <h2>Changes to this policy</h2>
+    <p>If this privacy policy changes in a future version of the app, the updated policy will be published at this URL with a new effective date. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+  </div>
+ 
+  <div class="section">
+    <h2>Contact</h2>
+    <p>If you have any questions about this privacy policy, please reach out:</p>
+    <p><a href="mailto:contact@apexreaction.app">contact@apexreaction.app</a></p>
+    <p>We aim to respond within 48 hours.</p>
+  </div>
+</main>
+ 
+<footer>
+  <div class="dots-sm" aria-hidden="true">
+    <div class="dot-sm on"></div>
+    <div class="dot-sm on"></div>
+    <div class="dot-sm on"></div>
+    <div class="dot-sm off"></div>
+    <div class="dot-sm off"></div>
+  </div>
+  <p>© 2026 Apex Reaction &nbsp;·&nbsp; All rights reserved</p>
+  <p style="margin-top:6px;">This app does not collect your data.</p>
+</footer>
+ 
+</body>
+</html>
